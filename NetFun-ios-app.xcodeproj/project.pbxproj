@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		883C9A47277C360200477657 /* ProfilesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C9A46277C360200477657 /* ProfilesViewModel.swift */; };
+		884936D6277B532300A4D325 /* NetFun_ios_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884936D5277B532300A4D325 /* NetFun_ios_appApp.swift */; };
+		884936D8277B532300A4D325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884936D7277B532300A4D325 /* ContentView.swift */; };
+		884936DA277B532400A4D325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884936D9277B532400A4D325 /* Assets.xcassets */; };
+		884936DD277B532400A4D325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884936DC277B532400A4D325 /* Preview Assets.xcassets */; };
+		884936E7277B532400A4D325 /* NetFun_ios_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884936E6277B532400A4D325 /* NetFun_ios_appTests.swift */; };
+		884936F1277B532400A4D325 /* NetFun_ios_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884936F0277B532400A4D325 /* NetFun_ios_appUITests.swift */; };
+		884936F3277B532400A4D325 /* NetFun_ios_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884936F2277B532400A4D325 /* NetFun_ios_appUITestsLaunchTests.swift */; };
+		88767D7A277C9FA500D7C1FE /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D79277C9FA500D7C1FE /* RequestModel.swift */; };
+		88767D7C277CA38200D7C1FE /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D7B277CA38200D7C1FE /* ServiceManager.swift */; };
+		88767D7E277CA6C600D7C1FE /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D7D277CA6C600D7C1FE /* AppError.swift */; };
+		88767D81277CA70D00D7C1FE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D80277CA70D00D7C1FE /* String+Extension.swift */; };
+		88767D83277CA74400D7C1FE /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D82277CA74400D7C1FE /* ErrorType.swift */; };
+		88767D85277CA89200D7C1FE /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D84277CA89200D7C1FE /* ResponseModel.swift */; };
+		88767D89277CA9C000D7C1FE /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D88277CA9C000D7C1FE /* Services.swift */; };
+		88767D8B277D7C2300D7C1FE /* UserAPIModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D8A277D7C2300D7C1FE /* UserAPIModel+Extension.swift */; };
+		88767D8D277DEA6700D7C1FE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D8C277DEA6700D7C1FE /* HomeView.swift */; };
+		88767D8F277DF94D00D7C1FE /* ProfileDataAPIModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88767D8E277DF94D00D7C1FE /* ProfileDataAPIModel+Extension.swift */; };
+		88D5A5BF278333F5003A0AA5 /* NetFunCore in Frameworks */ = {isa = PBXBuildFile; productRef = 88D5A5BE278333F5003A0AA5 /* NetFunCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884936E3277B532400A4D325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884936CA277B532300A4D325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884936D1277B532300A4D325;
+			remoteInfo = "NetFun-ios-app";
+		};
+		884936ED277B532400A4D325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884936CA277B532300A4D325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884936D1277B532300A4D325;
+			remoteInfo = "NetFun-ios-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		883C9A46277C360200477657 /* ProfilesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesViewModel.swift; sourceTree = "<group>"; };
+		884936D2277B532300A4D325 /* NetFun-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetFun-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884936D5277B532300A4D325 /* NetFun_ios_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFun_ios_appApp.swift; sourceTree = "<group>"; };
+		884936D7277B532300A4D325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		884936D9277B532400A4D325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884936DC277B532400A4D325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		884936E2277B532400A4D325 /* NetFun-ios-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetFun-ios-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884936E6277B532400A4D325 /* NetFun_ios_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFun_ios_appTests.swift; sourceTree = "<group>"; };
+		884936EC277B532400A4D325 /* NetFun-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetFun-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884936F0277B532400A4D325 /* NetFun_ios_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFun_ios_appUITests.swift; sourceTree = "<group>"; };
+		884936F2277B532400A4D325 /* NetFun_ios_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFun_ios_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88767D79277C9FA500D7C1FE /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		88767D7B277CA38200D7C1FE /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		88767D7D277CA6C600D7C1FE /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		88767D80277CA70D00D7C1FE /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		88767D82277CA74400D7C1FE /* ErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
+		88767D84277CA89200D7C1FE /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		88767D88277CA9C000D7C1FE /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		88767D8A277D7C2300D7C1FE /* UserAPIModel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserAPIModel+Extension.swift"; sourceTree = "<group>"; };
+		88767D8C277DEA6700D7C1FE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		88767D8E277DF94D00D7C1FE /* ProfileDataAPIModel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileDataAPIModel+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884936CF277B532300A4D325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D5A5BF278333F5003A0AA5 /* NetFunCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884936DF277B532400A4D325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884936E9277B532400A4D325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884936C9277B532300A4D325 = {
+			isa = PBXGroup;
+			children = (
+				884936D4277B532300A4D325 /* NetFun-ios-app */,
+				884936E5277B532400A4D325 /* NetFun-ios-appTests */,
+				884936EF277B532400A4D325 /* NetFun-ios-appUITests */,
+				884936D3277B532300A4D325 /* Products */,
+				88493707277C25DA00A4D325 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		884936D3277B532300A4D325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884936D2277B532300A4D325 /* NetFun-ios-app.app */,
+				884936E2277B532400A4D325 /* NetFun-ios-appTests.xctest */,
+				884936EC277B532400A4D325 /* NetFun-ios-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884936D4277B532300A4D325 /* NetFun-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				884936D5277B532300A4D325 /* NetFun_ios_appApp.swift */,
+				88493702277C23BF00A4D325 /* Model */,
+				88493703277C23C500A4D325 /* View */,
+				88493701277C23B300A4D325 /* ViewModel */,
+				88767D78277C9F8D00D7C1FE /* NetworkService */,
+				88767D7F277CA6F400D7C1FE /* Utilities */,
+				884936D9277B532400A4D325 /* Assets.xcassets */,
+				884936DB277B532400A4D325 /* Preview Content */,
+			);
+			path = "NetFun-ios-app";
+			sourceTree = "<group>";
+		};
+		884936DB277B532400A4D325 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				884936DC277B532400A4D325 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		884936E5277B532400A4D325 /* NetFun-ios-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				884936E6277B532400A4D325 /* NetFun_ios_appTests.swift */,
+			);
+			path = "NetFun-ios-appTests";
+			sourceTree = "<group>";
+		};
+		884936EF277B532400A4D325 /* NetFun-ios-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				884936F0277B532400A4D325 /* NetFun_ios_appUITests.swift */,
+				884936F2277B532400A4D325 /* NetFun_ios_appUITestsLaunchTests.swift */,
+			);
+			path = "NetFun-ios-appUITests";
+			sourceTree = "<group>";
+		};
+		88493701277C23B300A4D325 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				883C9A46277C360200477657 /* ProfilesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88493702277C23BF00A4D325 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88767D7D277CA6C600D7C1FE /* AppError.swift */,
+				88767D8A277D7C2300D7C1FE /* UserAPIModel+Extension.swift */,
+				88767D8E277DF94D00D7C1FE /* ProfileDataAPIModel+Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88493703277C23C500A4D325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				884936D7277B532300A4D325 /* ContentView.swift */,
+				88767D8C277DEA6700D7C1FE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88493707277C25DA00A4D325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88767D78277C9F8D00D7C1FE /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				88767D79277C9FA500D7C1FE /* RequestModel.swift */,
+				88767D84277CA89200D7C1FE /* ResponseModel.swift */,
+				88767D7B277CA38200D7C1FE /* ServiceManager.swift */,
+				88767D86277CA9AA00D7C1FE /* Services */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		88767D7F277CA6F400D7C1FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				88767D80277CA70D00D7C1FE /* String+Extension.swift */,
+				88767D82277CA74400D7C1FE /* ErrorType.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		88767D86277CA9AA00D7C1FE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				88767D88277CA9C000D7C1FE /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884936D1277B532300A4D325 /* NetFun-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884936F6277B532400A4D325 /* Build configuration list for PBXNativeTarget "NetFun-ios-app" */;
+			buildPhases = (
+				884936CE277B532300A4D325 /* Sources */,
+				884936CF277B532300A4D325 /* Frameworks */,
+				884936D0277B532300A4D325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NetFun-ios-app";
+			packageProductDependencies = (
+				88D5A5BE278333F5003A0AA5 /* NetFunCore */,
+			);
+			productName = "NetFun-ios-app";
+			productReference = 884936D2277B532300A4D325 /* NetFun-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884936E1277B532400A4D325 /* NetFun-ios-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884936F9277B532400A4D325 /* Build configuration list for PBXNativeTarget "NetFun-ios-appTests" */;
+			buildPhases = (
+				884936DE277B532400A4D325 /* Sources */,
+				884936DF277B532400A4D325 /* Frameworks */,
+				884936E0277B532400A4D325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884936E4277B532400A4D325 /* PBXTargetDependency */,
+			);
+			name = "NetFun-ios-appTests";
+			productName = "NetFun-ios-appTests";
+			productReference = 884936E2277B532400A4D325 /* NetFun-ios-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		884936EB277B532400A4D325 /* NetFun-ios-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884936FC277B532400A4D325 /* Build configuration list for PBXNativeTarget "NetFun-ios-appUITests" */;
+			buildPhases = (
+				884936E8277B532400A4D325 /* Sources */,
+				884936E9277B532400A4D325 /* Frameworks */,
+				884936EA277B532400A4D325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884936EE277B532400A4D325 /* PBXTargetDependency */,
+			);
+			name = "NetFun-ios-appUITests";
+			productName = "NetFun-ios-appUITests";
+			productReference = 884936EC277B532400A4D325 /* NetFun-ios-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884936CA277B532300A4D325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					884936D1277B532300A4D325 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					884936E1277B532400A4D325 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 884936D1277B532300A4D325;
+					};
+					884936EB277B532400A4D325 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 884936D1277B532300A4D325;
+					};
+				};
+			};
+			buildConfigurationList = 884936CD277B532300A4D325 /* Build configuration list for PBXProject "NetFun-ios-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884936C9277B532300A4D325;
+			packageReferences = (
+				88D5A5BD278333F5003A0AA5 /* XCRemoteSwiftPackageReference "NetFunCore" */,
+			);
+			productRefGroup = 884936D3277B532300A4D325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884936D1277B532300A4D325 /* NetFun-ios-app */,
+				884936E1277B532400A4D325 /* NetFun-ios-appTests */,
+				884936EB277B532400A4D325 /* NetFun-ios-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884936D0277B532300A4D325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884936DD277B532400A4D325 /* Preview Assets.xcassets in Resources */,
+				884936DA277B532400A4D325 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884936E0277B532400A4D325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884936EA277B532400A4D325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884936CE277B532300A4D325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884936D8277B532300A4D325 /* ContentView.swift in Sources */,
+				88767D8B277D7C2300D7C1FE /* UserAPIModel+Extension.swift in Sources */,
+				88767D85277CA89200D7C1FE /* ResponseModel.swift in Sources */,
+				88767D81277CA70D00D7C1FE /* String+Extension.swift in Sources */,
+				88767D8F277DF94D00D7C1FE /* ProfileDataAPIModel+Extension.swift in Sources */,
+				88767D7A277C9FA500D7C1FE /* RequestModel.swift in Sources */,
+				88767D7E277CA6C600D7C1FE /* AppError.swift in Sources */,
+				88767D89277CA9C000D7C1FE /* Services.swift in Sources */,
+				883C9A47277C360200477657 /* ProfilesViewModel.swift in Sources */,
+				884936D6277B532300A4D325 /* NetFun_ios_appApp.swift in Sources */,
+				88767D8D277DEA6700D7C1FE /* HomeView.swift in Sources */,
+				88767D83277CA74400D7C1FE /* ErrorType.swift in Sources */,
+				88767D7C277CA38200D7C1FE /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884936DE277B532400A4D325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884936E7277B532400A4D325 /* NetFun_ios_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884936E8277B532400A4D325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884936F3277B532400A4D325 /* NetFun_ios_appUITestsLaunchTests.swift in Sources */,
+				884936F1277B532400A4D325 /* NetFun_ios_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884936E4277B532400A4D325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884936D1277B532300A4D325 /* NetFun-ios-app */;
+			targetProxy = 884936E3277B532400A4D325 /* PBXContainerItemProxy */;
+		};
+		884936EE277B532400A4D325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884936D1277B532300A4D325 /* NetFun-ios-app */;
+			targetProxy = 884936ED277B532400A4D325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		884936F4277B532400A4D325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		884936F5277B532400A4D325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884936F7277B532400A4D325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetFun-ios-app/Preview Content\"";
+				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vapordemo.NetFun-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		884936F8277B532400A4D325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetFun-ios-app/Preview Content\"";
+				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vapordemo.NetFun-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		884936FA277B532400A4D325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vapordemo.NetFun-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetFun-ios-app.app/NetFun-ios-app";
+			};
+			name = Debug;
+		};
+		884936FB277B532400A4D325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vapordemo.NetFun-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetFun-ios-app.app/NetFun-ios-app";
+			};
+			name = Release;
+		};
+		884936FD277B532400A4D325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vapordemo.NetFun-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NetFun-ios-app";
+			};
+			name = Debug;
+		};
+		884936FE277B532400A4D325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vapordemo.NetFun-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NetFun-ios-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884936CD277B532300A4D325 /* Build configuration list for PBXProject "NetFun-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884936F4277B532400A4D325 /* Debug */,
+				884936F5277B532400A4D325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884936F6277B532400A4D325 /* Build configuration list for PBXNativeTarget "NetFun-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884936F7277B532400A4D325 /* Debug */,
+				884936F8277B532400A4D325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884936F9277B532400A4D325 /* Build configuration list for PBXNativeTarget "NetFun-ios-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884936FA277B532400A4D325 /* Debug */,
+				884936FB277B532400A4D325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884936FC277B532400A4D325 /* Build configuration list for PBXNativeTarget "NetFun-ios-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884936FD277B532400A4D325 /* Debug */,
+				884936FE277B532400A4D325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88D5A5BD278333F5003A0AA5 /* XCRemoteSwiftPackageReference "NetFunCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/max6363/NetFunCore.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88D5A5BE278333F5003A0AA5 /* NetFunCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88D5A5BD278333F5003A0AA5 /* XCRemoteSwiftPackageReference "NetFunCore" */;
+			productName = NetFunCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 884936CA277B532300A4D325 /* Project object */;
+}

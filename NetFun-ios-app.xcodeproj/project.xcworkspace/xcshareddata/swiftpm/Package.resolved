@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "netfun-core",
+        "repositoryURL": "https://github.com/max6363/NetFunCore.git",
+        "state": {
+          "branch": "main",
+          "revision": "d6073cd09c662d87da639571d22fa153496d9fc2",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
